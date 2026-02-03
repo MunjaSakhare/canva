@@ -1,0 +1,53 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* :root {
+    font-size: 10px;
+}
+
+body {
+    font-size: 1.6rem;
+} */
+
+body {
+    font-family: sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid red;
+    width: 100vw;
+    height: 80px;
+    padding: 0 32px;
+
+}
+
+nav {
+    display: flex;
+    gap: 24px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #0f1015;
+}
+
+header div .signup {
+    text-decoration: none;
+    padding: 6px 12px;
+    border: 1px solid #6666;
+    border-radius: 4px;
+}
+
+header div>.login {
+    text-decoration: none;
+    background-color: #8B3Dff;
+    padding: 6px 12px;
+    color: #ffffff;
+    border-radius: 4px;
+}
