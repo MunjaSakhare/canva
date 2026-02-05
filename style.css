@@ -410,6 +410,12 @@ header div .login:hover {
     font-weight: 550;
 }
 
+.section-2-left div .generate:hover {
+    background-color: #7821fb;
+    transition: background-color .1s linear;
+
+}
+
 .section-2-right {
     width: 50%;
     display: flex;
@@ -435,7 +441,7 @@ header div .login:hover {
     justify-content: center;
     align-items: center;
     position: relative;
-    bottom: 80px;
+    bottom: 70px;
 
 }
 
@@ -448,13 +454,44 @@ header div .login:hover {
     border: 2px solid red;
     background-color: #f8f8f8;
     border-radius: 15px;
-    gap: 5px;
+    column-gap: 8px;
 
 
+}
+
+.img-box .s-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .img-box .s-box img {
     width: 60px;
     height: 60px;
-    border-radius: 15px;
+    border-radius: 10px;
+}
+
+.img-box .s-box p {
+    padding: 2px;
+    font-size: 12px;
+    font-weight: 550;
+}
+
+.img-box .s-box div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    background-color: #f1eef5;
+    border: 1px solid #dedddd;
+    border-radius: 10px;
+
+}
+
+.img-box .s-box img:hover {
+    padding: 2px;
+    border: 2px solid #7630d7;
+    transition: border;
 }
