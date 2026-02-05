@@ -501,7 +501,6 @@ header div .login:hover {
     width: 100%;
     display: flex;
     justify-content: center;
-    border: 2px solid red;
     flex-direction: column;
 
 }
@@ -621,3 +620,136 @@ header div .login:hover {
     border: none;
     text-decoration: none;
 }
+
+/* section-3 end  */
+
+/* section-4 start */
+
+.section-4 {
+    padding: 48px 20px 0;
+    margin-top: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.section-4-content {
+    padding-bottom: 48px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.section-4-content h2 {
+    font-size: 48px;
+    margin-bottom: 10px;
+    color: #0f1015;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    letter-spacing: -0.01em;
+}
+
+.section-4-content a {
+    margin-top: 15px;
+    color: #0f1015;
+    font-weight: bold;
+    font-size: 14px;
+    background-color: #f8f8f8;
+    padding: 10px 20px;
+    border-radius: 7px;
+    box-shadow: 0 0 2px #0f1015;
+    text-decoration: none;
+}
+
+.section-4-container {
+    width: 100%;
+    /* padding: 48px 20px 0; */
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    gap: 24px;
+}
+
+.horizontal-scroll {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.section-4-container::-webkit-scrollbar {
+    display: none;
+}
+
+.section-4-sub-1 {
+    display: flex;
+    gap: 24px;
+}
+
+.section-4-sub-1 .image-box {
+    width: 200px;
+    height: 270px;
+    /* border: 2px solid #5a32fa; */
+
+}
+
+.section-4-sub-1 .image-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+.section-4-sub-2 {
+    display: flex;
+    gap: 24px;
+}
+
+.section-4-sub-2 .image-boxes {
+    width: 550px;
+    height: 270px;
+}
+
+.section-4-sub-2 .image-boxes img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+.section-4-sub-2 .image-boxes-small {
+    width: 200px;
+    height: 270px;
+
+}
+
+.section-4-sub-2 .image-boxes-small img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+.section-4-sub-2 .image-boxes-medium {
+    width: 400px;
+    height: 270px;
+
+}
+
+.section-4-sub-2 .image-boxes-medium img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+/* section-4 end */
+
+/* section-5 start */
