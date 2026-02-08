@@ -7,9 +7,16 @@
 /* :root {
     font-size: 10px;
 }
+    */
 
+@font-face {
+    font-family: "my-font";
+    src: url("custom-font.woff2");
+}
+
+/* 
 body {
-    font-size: 1.6rem;
+    font-family: "my-font";
 } */
 
 body {
@@ -78,7 +85,9 @@ header div .login:hover {
 
 .main {
     padding: 32px;
-    background: linear-gradient(to bottom, #8B3Dff, #f1eef5);
+    background:
+        linear-gradient(180deg, #2c2cff, #8B3Dff, #ffffff) 0 0 / 100% 800px no-repeat,
+        #ffffff;
 }
 
 .hero {
@@ -362,7 +371,7 @@ header div .login:hover {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
 
 }
 
@@ -794,7 +803,7 @@ header div .login:hover {
     line-height: 1.6;
 }
 
-.section-4-last .seeplan {
+.section-4-last .see-plan {
     margin-top: 15px;
     color: #0f1015;
     font-weight: bold;
@@ -804,8 +813,104 @@ header div .login:hover {
     border-radius: 7px;
     box-shadow: 0 0 1px #0f1015;
     text-decoration: none;
+    transition: background-color 0.3s linear;
+}
+
+.section-4-last .see-plan:hover {
+    background-color: #efefef;
 }
 
 /* section-4 end */
 
 /* section-5 start */
+.footer {
+    margin-top: 100px;
+    padding: 48px 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+
+}
+
+.img-container {
+    width: 100%;
+    padding-bottom: 8px;
+    border: 2px solid black;
+}
+
+.img-container img {
+    width: 80px;
+}
+
+.grid-container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 271px repeat(3, 1fr);
+    border: 2px solid red;
+    /* height: 300px; */
+}
+
+.grid-container div {
+    border: 2px solid red;
+}
+
+.grid-1>.grid-1-content {
+    padding: 24px 0 12px;
+    color: #0f1015d9;
+    height: 64px;
+}
+
+.button-container {
+    display: flex;
+    gap: 12px;
+}
+
+.button-container .grid-1-button {
+    color: #0f1015;
+    font-weight: bold;
+    font-size: 14px;
+    background-color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 7px;
+    box-shadow: 0 0 1px #0f1015;
+    text-decoration: none;
+    transition: background-color 0.3s linear;
+}
+
+.button-container .grid-1-button:hover {
+    background-color: #efefef;
+}
+
+.grid-content {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 62px;
+    color: #0f121ab2;
+}
+
+.grid-list {
+    display: flex;
+}
+
+.grid-list ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    list-style: none;
+
+}
+
+.grid-list ul li {
+    margin-top: 20px;
+}
+
+.grid-list ul li a {
+    text-decoration: none;
+    color: #0f1015;
+
+}
+
